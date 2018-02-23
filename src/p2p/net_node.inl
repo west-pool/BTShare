@@ -375,13 +375,13 @@ namespace nodetool
     std::set<std::string> full_addrs;
     if (testnet)
     {
-      full_addrs.insert("62.28.62.162:48083");
-      full_addrs.insert("5.249.27.162:48083");
+      full_addrs.insert("seed1.bitcoinshare.io:48083");
+      full_addrs.insert("seed2.bitcoinshare.io:48083");
     }
     else
     {
-      full_addrs.insert("62.28.62.162:48080");
-      full_addrs.insert("5.249.27.162:48080");
+      full_addrs.insert("seed1.bitcoinshare.io:48080");
+      full_addrs.insert("seed2.bitcoinshare.io:48080");
     }
     return full_addrs;
   }
