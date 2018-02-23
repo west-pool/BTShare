@@ -127,8 +127,8 @@ namespace nodetool
     virtual std::map<std::string, time_t> get_blocked_hosts() { CRITICAL_REGION_LOCAL(m_blocked_hosts_lock); return m_blocked_hosts; }
   private:
     const std::vector<std::string> m_seed_nodes_list =
-    { "62.28.62.162"
-    , "5.249.27.162"
+    { "seed1.bitcoinshare.io"
+    , "seed2.bitcoinshare.io"
     , "62.28.62.162"
     , "5.249.27.162"
     };
